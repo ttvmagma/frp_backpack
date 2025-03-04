@@ -7,5 +7,5 @@ Zudem ist dies unser erstes Free-Skript, das wir der Community kostenlos zur Ver
 
 Only ESX.
 
-## Future Service
+**Future Service**
 https://discord.gg/8QES4NgeBK
