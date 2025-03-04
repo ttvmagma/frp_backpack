@@ -9,10 +9,12 @@ FUTURE.backpacklvl =  {
     [1] = 250,  -- Gewicht für Rucksack Level 1
     [2] = 300,  -- Gewicht für Rucksack Level 2
     [3] = 400,  -- Gewicht für Rucksack Level 3
+    -- Erstelle noch mehr
 }
 
 FUTURE.backpackItems = {
     [1] = "bplvl1", -- Itemname für Rucksack Level 1
     [2] = "bplvl2", -- Itemname für Rucksack Level 2
     [3] = "bplvl3", -- Itemname für Rucksack Level 3
+    -- Erstelle noch mehr
 }
