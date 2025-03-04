@@ -12,7 +12,7 @@ FUTURE.backpacklvl =  {
 }
 
 FUTURE.backpackItems = {
-    [1] = "water", -- Itemname für Rucksack Level 1
-    [2] = "bread", -- Itemname für Rucksack Level 2
-    [3] = "meth", -- Itemname für Rucksack Level 3
+    [1] = "bplvl1", -- Itemname für Rucksack Level 1
+    [2] = "bplvl2", -- Itemname für Rucksack Level 2
+    [3] = "bplvl3", -- Itemname für Rucksack Level 3
 }
