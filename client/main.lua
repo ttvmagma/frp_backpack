@@ -1,14 +1,22 @@
 Citizen.CreateThread(function()
-    ESX.PlayerData = ESX.GetPlayerData()
+    while not ESX do
+        Citizen.Wait(10)
+    end
+
+    while not ESX.IsPlayerLoaded() do
+        Citizen.Wait(10)
+    end
+
+    TriggerServerEvent('frp_backpack:setWeight')
 end)
 
 RegisterNetEvent('esx:playerLoaded')
-AddEventHandler('esx:playerLoaded', function()
+AddEventHandler('esx:playerLoaded', function(xPlayer, isNew, skin)
     TriggerServerEvent('frp_backpack:setWeight')
 end)
 
 RegisterNetEvent('frp_backpack:neuerBackpack')
-AddEventHandler('frp_backpack:neuerBackpack', function()
+AddEventHandler('frp_backpack:neuerBackpack', function() 
     TriggerServerEvent('frp_backpack:setWeight')
 end)
 
